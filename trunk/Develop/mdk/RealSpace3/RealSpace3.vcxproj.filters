@@ -1,0 +1,1799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Device">
+      <UniqueIdentifier>{fb062073-ee1f-4d1a-9c12-6cb07f16ecac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device\Texture">
+      <UniqueIdentifier>{73ad046d-c047-4c84-b654-85d9e854daf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device\Vertex">
+      <UniqueIdentifier>{98e0beba-f20e-4c8f-8223-bdf484fef16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device\Shader">
+      <UniqueIdentifier>{d8e42d56-0fa3-4f4d-8c84-723f9f47dde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device\Font">
+      <UniqueIdentifier>{f98d3ee9-8cf1-4f1b-ad27-b25ae2cfda0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device\Query">
+      <UniqueIdentifier>{4738afea-467d-42c6-b7d8-f2a5ff88ff93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation">
+      <UniqueIdentifier>{9f3af223-9124-44cc-a596-5069cd796a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{939b5634-c04d-4e5e-9bf6-4c1a24cf6d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{ba36c142-8b9b-41cc-87c6-a82cd06cf267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Resource">
+      <UniqueIdentifier>{4fcfedb2-f30e-4e6c-8072-6431004a6e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Memory">
+      <UniqueIdentifier>{e3fa38a7-d263-4c23-8621-274b872be9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\File">
+      <UniqueIdentifier>{f623e040-0314-443d-b6bf-5a6a4f308661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{85ef0e03-5afe-48b5-bb36-e5310b1d365e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Actor">
+      <UniqueIdentifier>{da00af55-95d9-41e1-918d-40c9aa8c1800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Actor\Animation">
+      <UniqueIdentifier>{35126217-1684-4734-8949-e83c0f7a775e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Actor\PassRenderer">
+      <UniqueIdentifier>{5dc0528d-7efa-4e72-83b4-544b8d5f31dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Actor\ClothNew">
+      <UniqueIdentifier>{f6f9f410-6095-4f6f-a9a1-a65293ab41d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Actor\ActorControllers">
+      <UniqueIdentifier>{c7e2ba56-3a26-4c8e-a66b-c4b3c22f878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Environment">
+      <UniqueIdentifier>{28dd0662-1129-4cf3-86c6-ed5414f4c52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Environment\PassRenderer">
+      <UniqueIdentifier>{9a66761b-4bd2-4d70-8948-ee7b42eb4d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\SceneNodeControllers">
+      <UniqueIdentifier>{d0505561-dec5-457d-8fca-f0b8696d531c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Light">
+      <UniqueIdentifier>{4ab6a310-b097-4055-bc95-7d77ba4910f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Light\GI">
+      <UniqueIdentifier>{e400b451-01be-47ad-bb69-43efa2727f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Light\PassRenderer">
+      <UniqueIdentifier>{f4c353fd-78ba-425a-b06a-7a23e9013fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\SceneNode">
+      <UniqueIdentifier>{6ecb6742-ba54-4907-b462-46419ea45ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Terrain">
+      <UniqueIdentifier>{6a26b2f4-b559-4b4f-9b30-f72fba6feb4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Terrain\PassRenderer">
+      <UniqueIdentifier>{74e5e52f-7e28-480f-aa27-a7262507dc34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Water">
+      <UniqueIdentifier>{06738029-1f5d-4c6a-83b8-009b8755a6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Water\PassRenderer">
+      <UniqueIdentifier>{498985dd-21c3-4918-b4da-075934159317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Water\Resource">
+      <UniqueIdentifier>{cd9207c8-f4ed-42ee-a257-46418ac8a638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Grass">
+      <UniqueIdentifier>{083a2469-6911-4881-a576-ac383cdd5aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Grass\SpeedGrass">
+      <UniqueIdentifier>{2823c881-5fb0-48ed-a7d6-f05c2d20a707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Tree">
+      <UniqueIdentifier>{2df04358-f5b7-424f-bfb2-502d4bbff959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Tree\PassRenderer">
+      <UniqueIdentifier>{6f6058cd-60bd-4ac1-b905-86a1ef28b389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Tree\Resource">
+      <UniqueIdentifier>{91d329ea-b7c1-4fc5-a774-d32bfea8d9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Tree\Collision">
+      <UniqueIdentifier>{04a114a1-b29d-47d7-bebc-99215ea74067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\SceneManager">
+      <UniqueIdentifier>{872cf915-17b9-499a-8f0e-b715970b660d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Camera">
+      <UniqueIdentifier>{cf43db10-5f98-4749-ae34-dd1db60df0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Camera\CameraController">
+      <UniqueIdentifier>{46a99158-67b7-466e-84d2-e6aa19a1abea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\PassRenderer">
+      <UniqueIdentifier>{a5f4f4e7-9027-4c61-89c8-a21a1add67a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Effect">
+      <UniqueIdentifier>{493e3192-2060-49b6-9f67-4f056be53204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Effect\PassRenderer">
+      <UniqueIdentifier>{ae2b81ac-ddbc-43cd-8cf8-9bfd27c3ca4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\StaticMesh">
+      <UniqueIdentifier>{42f8a5d3-68ee-4061-b6c8-4c2b290f0854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\StaticMesh\PassRenderer">
+      <UniqueIdentifier>{f3afed95-d4c8-40b3-be0e-8f4d5a6aaaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Decal">
+      <UniqueIdentifier>{595d5771-fd2c-4c57-8760-d929a18ac691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Decal\PassRenderer">
+      <UniqueIdentifier>{c8c6e908-829c-4e1b-a6a8-59fb61102468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Rendering">
+      <UniqueIdentifier>{ec987088-7f79-4115-971a-e0450864636a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Rendering\PostEffect">
+      <UniqueIdentifier>{d1e41482-05f4-4d3f-9e24-7d873ff79e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\SpaceDivision">
+      <UniqueIdentifier>{9cb33b53-4f15-469d-93eb-732274924ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\RCullingList">
+      <UniqueIdentifier>{57ee9f76-25ad-41f4-a627-a1d517fbf31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Shadow">
+      <UniqueIdentifier>{1068e51e-d17d-49e3-8fbd-26a912737352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Context">
+      <UniqueIdentifier>{d92c1bbe-45e0-4ea7-bfe3-1fb0630e47d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Occluder">
+      <UniqueIdentifier>{284a8876-72eb-4888-9191-aac9a96d3792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\LODSystem">
+      <UniqueIdentifier>{14ca17b9-89b4-466f-bed1-ba2e34527a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{b83725c9-3067-427f-b140-94361a99d84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\ToolSupport">
+      <UniqueIdentifier>{e767c5fd-9491-45e3-8f74-d27525ff7aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageLib">
+      <UniqueIdentifier>{edd3c8f6-a779-4df3-a581-8290767524fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageLib\SOIL">
+      <UniqueIdentifier>{d2d1248b-19de-45eb-86ed-f16269efce04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTestRunner">
+      <UniqueIdentifier>{2a1ecd8a-d8b6-473d-afbb-05f4f5cfc9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{348f2abe-1f14-40c1-a049-e29f89d1d4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analyst">
+      <UniqueIdentifier>{c0897371-bc98-4880-814b-346d0410aaea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analyst\Profiler">
+      <UniqueIdentifier>{dce68668-7828-4daf-84b8-e3c34f9e0641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{623e42d2-e70b-4843-8e77-1e0d568f5d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Desc">
+      <UniqueIdentifier>{2e4d9159-98e6-414b-8b95-85b6a1e1ad6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desc">
+      <UniqueIdentifier>{c39a5d5a-4c4e-4423-af41-9464d302043f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RDevice.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="RDeviceD3D.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="RDeviceOpenGL.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="RTexture.cpp">
+      <Filter>Device\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="RTextureManager.cpp">
+      <Filter>Device\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="RShaderComposer.cpp">
+      <Filter>Device\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RShaderComposite.cpp">
+      <Filter>Device\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RShaderCompositeManager.cpp">
+      <Filter>Device\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RShaderConstant.cpp">
+      <Filter>Device\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RShaderFX.cpp">
+      <Filter>Device\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RTechnique.cpp">
+      <Filter>Device\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RFont.cpp">
+      <Filter>Device\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="RD3DQuery.cpp">
+      <Filter>Device\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="RQuery.cpp">
+      <Filter>Device\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="RAStar.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="RNavigationMesh.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="RNavigationNode.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="RCompositeLayer.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="RMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="RMaterialResource.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="RMaterialResourceMgr.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="RMaterialTexture.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="RUVTransform.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="RBackgroundWorker.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RBackgroundWorkUnit.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RConfiguration.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RLoadingWorkUnit.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RMemPoolReleaser.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RMeshProfileInfo.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RPathSplitter.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RRenderHelper.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RRenderHelper2.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneLoader.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RSUtil.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RSystemInfo.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RTimer.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RTypes.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RUtil.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RVType.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RXMLTemplate.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RResource.cpp">
+      <Filter>Base\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RResourceLoader.cpp">
+      <Filter>Base\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RResourceLoadingGroup.cpp">
+      <Filter>Base\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RResourceManager.cpp">
+      <Filter>Base\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RMemoryAlloc.cpp">
+      <Filter>Base\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="RStlCustomAlloc.cpp">
+      <Filter>Base\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="RFile.cpp">
+      <Filter>Base\File</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneNode.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneNodeID.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="RActor.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RActorCollision.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RActorNode.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RActorNodePhysique.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RActorNodeRenderStrategy.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RMesh.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RMeshAnimationMgr.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RMeshCollision.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RMeshMgr.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RMeshNode.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RMeshNodeData.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RMeshNodeLoadImpl.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RMeshUtil.cpp">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnimation.cpp">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnimationBlendTable.cpp">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnimationFileLoadImpl.cpp">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnimationManager.cpp">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnimationNode.cpp">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnimationResource.cpp">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RSkeleton.cpp">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RAccumMotionBlurPassRenderer.cpp">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RActorPassRenderer.cpp">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="REdgePassRender.cpp">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RPixelMotionBlurPassRenderer.cpp">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectEdgePassRender.cpp">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RVertexMotionBlurPassRenderer.cpp">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothActorNode.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothCollision.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothConstraint.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothEdgeAndTriangleInfo.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothInfo.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothLocalActorNode.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothParameter.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothParticle.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothSimulator.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothUtility.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RClothWorldActorNode.cpp">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClCompile>
+    <ClCompile Include="RActorAlignController.cpp">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RActorController.cpp">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RActorNodeConstraintController.cpp">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnimationController.cpp">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnimationControllerNode.cpp">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="REnvironment.cpp">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="REnvironmentSet.cpp">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneSky.cpp">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="RSkyManager.cpp">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="RWeatherEffect.cpp">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="RWeatherEffectSet.cpp">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="RSkyPassRenderer.cpp">
+      <Filter>SceneGraph\Environment\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RAlignController.cpp">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RRotateSettingController.cpp">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneNodeController.cpp">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneNodeControllerFactory.cpp">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RShaderEffectController.cpp">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RSimpleRotationController.cpp">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RDirectionalLightSceneNode.cpp">
+      <Filter>SceneGraph\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RLightingShader.cpp">
+      <Filter>SceneGraph\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RLightSceneNode.cpp">
+      <Filter>SceneGraph\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RPointLightSceneNode.cpp">
+      <Filter>SceneGraph\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RSpotLightSceneNode.cpp">
+      <Filter>SceneGraph\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RGIProcessor.cpp">
+      <Filter>SceneGraph\Light\GI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHBAOProcessor.cpp">
+      <Filter>SceneGraph\Light\GI</Filter>
+    </ClCompile>
+    <ClCompile Include="RSSAOProcessor.cpp">
+      <Filter>SceneGraph\Light\GI</Filter>
+    </ClCompile>
+    <ClCompile Include="RDirectionalLightPassRenderer.cpp">
+      <Filter>SceneGraph\Light\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RPointLightPassRenderer.cpp">
+      <Filter>SceneGraph\Light\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RSpotLightPassRenderer.cpp">
+      <Filter>SceneGraph\Light\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneNodeInstance.cpp">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneNodePolygonCollector_Collision.cpp">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="RScreenEffectManager.cpp">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="RTextSceneNode.cpp">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="RWorldSceneNode.cpp">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Horizon.cpp">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RTerrain.cpp">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RTerrainPatch.cpp">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RTerrainProcess.cpp">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RTerrainPVS.cpp">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RTerrainQuadTree.cpp">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RTerrainResource.cpp">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RTerrainShader.cpp">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RTerrainPassRenderer.cpp">
+      <Filter>SceneGraph\Terrain\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RWaterSceneNode.cpp">
+      <Filter>SceneGraph\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="RWaterPassRenderer.cpp">
+      <Filter>SceneGraph\Water\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RGrassLoader.cpp">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="RGrassSystem.cpp">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="RSpeedGrass.cpp">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="RSpeedGrassGPUInstance.cpp">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="RSpeedGrassShader.cpp">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\speedgrass\IdvVectorMath.cpp">
+      <Filter>SceneGraph\Grass\SpeedGrass</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\speedgrass\SpeedGrassRT.cpp">
+      <Filter>SceneGraph\Grass\SpeedGrass</Filter>
+    </ClCompile>
+    <ClCompile Include="RTreeSceneNode.cpp">
+      <Filter>SceneGraph\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="RTreePassRenderer.cpp">
+      <Filter>SceneGraph\Tree\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RTreeResource.cpp">
+      <Filter>SceneGraph\Tree\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RTreeResourceMgr.cpp">
+      <Filter>SceneGraph\Tree\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RTreeCollision.cpp">
+      <Filter>SceneGraph\Tree\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneManager.cpp">
+      <Filter>SceneGraph\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RSceneManager_Create.cpp">
+      <Filter>SceneGraph\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RCameraArcBallSceneNode.cpp">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RCameraFPSSceneNode.cpp">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RCameraSceneNode.cpp">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RPolarCameraSceneNode.cpp">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RVariableFrustum.cpp">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RViewFrustum.cpp">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RCameraAnimationController.cpp">
+      <Filter>SceneGraph\Camera\CameraController</Filter>
+    </ClCompile>
+    <ClCompile Include="RCameraSceneNodeController.cpp">
+      <Filter>SceneGraph\Camera\CameraController</Filter>
+    </ClCompile>
+    <ClCompile Include="RCameraShakeController.cpp">
+      <Filter>SceneGraph\Camera\CameraController</Filter>
+    </ClCompile>
+    <ClCompile Include="RAdditivePassRenderer.cpp">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RAlphaPassRenderer.cpp">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RDebugPassRenderer.cpp">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RDistortionPassRenderer.cpp">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RPassRenderer.cpp">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RBspline.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RCardinal.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REffectActor.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REffectBase.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REffectInstance.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REffectManager.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REffectSceneNode.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REmitter.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REmitter_Renderer.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REmitter_UVModifier.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RGlareDef.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RParticle.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RParticle_Create.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RParticleShader.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RTrail.cpp">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="REffectPassRenderer.cpp">
+      <Filter>SceneGraph\Effect\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RStaticMeshDepthRenderStrategy.cpp">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RStaticMeshGStageRenderStrategy.cpp">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RStaticMeshMStageRenderStrategy.cpp">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RStaticMeshRenderStrategy.cpp">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RStaticMeshResource.cpp">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RStaticMeshResourceFileLoadImpl.cpp">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RStaticMeshSceneNode.cpp">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RStaticMeshPassRenderer.cpp">
+      <Filter>SceneGraph\StaticMesh\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RDecalCollision.cpp">
+      <Filter>SceneGraph\Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="RDecalPolygonSceneNode.cpp">
+      <Filter>SceneGraph\Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="RDecalProjectionSceneNode.cpp">
+      <Filter>SceneGraph\Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="RDecalPolygonPassRenderer.cpp">
+      <Filter>SceneGraph\Decal\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RDecalProjectionPassRenderer.cpp">
+      <Filter>SceneGraph\Decal\PassRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RDeferredRenderingStrategy.cpp">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="RInferredRenderingStrategy.cpp">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="RNullRenderingStrategy.cpp">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="RRenderingCallbackInterface.cpp">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="RRenderingStrategy.cpp">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectAccumMotionBlur.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectDistortion.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectDistortionParameter.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectDOF.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectEdge.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectFinalScene.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectHDR.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectInterface.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectManager.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectPixelMotionBlur.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RPostEffectScreenMotionBlur.cpp">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ROctreeManager.cpp">
+      <Filter>SceneGraph\SpaceDivision</Filter>
+    </ClCompile>
+    <ClCompile Include="RCullingList.cpp">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClCompile>
+    <ClCompile Include="RCullingMgr.cpp">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClCompile>
+    <ClCompile Include="ROccluderList.cpp">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClCompile>
+    <ClCompile Include="ROcclusionCullingMgr.cpp">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClCompile>
+    <ClCompile Include="RRenderChain.cpp">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClCompile>
+    <ClCompile Include="RRenderingList.cpp">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClCompile>
+    <ClCompile Include="RViewFrustumCullingMgr.cpp">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClCompile>
+    <ClCompile Include="RDepthMapShadowStrategy.cpp">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="RLiSPSMShadowStrategy.cpp">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="RProjectionShadow.cpp">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="RProjectionShadowStrategy.cpp">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="RPSSMShadowStrategy.cpp">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="RShadowStrategy.cpp">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="RDuplicateUpdateCheckContext.cpp">
+      <Filter>SceneGraph\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="ROccluderContext.cpp">
+      <Filter>SceneGraph\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="ROccluderSceneNode.cpp">
+      <Filter>SceneGraph\Occluder</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODContext.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODController.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODMetric.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODMetricInfo.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODNode.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODProcessorBase.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODProcessorDistance.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODProcessorFog.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RLODProcessorProjection.cpp">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="RD3DApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="RLibTypes.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="MImagePacker.cpp">
+      <Filter>Application\ToolSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="RToolApplication.cpp">
+      <Filter>Application\ToolSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="RToolHelper.cpp">
+      <Filter>Application\ToolSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="RToolUtil.cpp">
+      <Filter>Application\ToolSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="MFileLoader.cpp">
+      <Filter>ImageLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\SOIL\image_DXT.c">
+      <Filter>ImageLib\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\SOIL\SOIL.c">
+      <Filter>ImageLib\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\SOIL\stb_image_aug.c">
+      <Filter>ImageLib\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="RUnitTestRunner.cpp">
+      <Filter>UnitTestRunner</Filter>
+    </ClCompile>
+    <ClCompile Include="RDebuggingInfo.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="RAnalyst.cpp">
+      <Filter>Analyst</Filter>
+    </ClCompile>
+    <ClCompile Include="RCPUAnalyst.cpp">
+      <Filter>Analyst</Filter>
+    </ClCompile>
+    <ClCompile Include="RGPUAnalyst.cpp">
+      <Filter>Analyst</Filter>
+    </ClCompile>
+    <ClCompile Include="RResourceAnalyst.cpp">
+      <Filter>Analyst</Filter>
+    </ClCompile>
+    <ClCompile Include="RGPUProfiler.cpp">
+      <Filter>Analyst\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="RProfileInfo.cpp">
+      <Filter>Analyst\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\RUSceneXML.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="REngine.cpp" />
+    <ClCompile Include="RListener.cpp" />
+    <ClCompile Include="RMaterialDecal.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RDevice.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="RDeviceD3D.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="RDeviceNull.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="RDeviceOpenGL.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="RTexture.h">
+      <Filter>Device\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="RTextureManager.h">
+      <Filter>Device\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="RD3DVertexUtil.h">
+      <Filter>Device\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="RShaderComponentID.h">
+      <Filter>Device\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RShaderComposer.h">
+      <Filter>Device\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RShaderComposite.h">
+      <Filter>Device\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RShaderCompositeManager.h">
+      <Filter>Device\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RShaderConstant.h">
+      <Filter>Device\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RShaderFX.h">
+      <Filter>Device\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RTechnique.h">
+      <Filter>Device\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RFont.h">
+      <Filter>Device\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="RD3DQuery.h">
+      <Filter>Device\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="RQuery.h">
+      <Filter>Device\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="RAStar.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="RLine.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="RNavigationMesh.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="RNavigationNode.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="RCompositeLayer.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="RMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="RMaterialResource.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="RMaterialResourceMgr.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="RMaterialTexture.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="RUVTransform.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="RBackgroundWorker.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RBackgroundWorkUnit.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RConfiguration.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RListener.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RLoadingWorkUnit.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RMemPoolReleaser.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RMeshProfileInfo.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RPathSplitter.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RRenderHelper.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RRenderHelper2.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RRule.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneLoader.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RSUtil.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RSystemInfo.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RTimer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RToken.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RTypes.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RUtil.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RVersions.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RVType.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RXMLTemplate.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RPreDefine.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RResource.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RResourceID.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RResourceLoader.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RResourceLoadingGroup.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RResourceManager.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RMemoryAlloc.h">
+      <Filter>Base\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="RStlCustomAlloc.h">
+      <Filter>Base\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="RFile.h">
+      <Filter>Base\File</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneNode.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneNodeID.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="RActor.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorCollision.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorNode.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorNodePhysique.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorNodeRenderStrategy.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RMesh.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RMeshAnimationMgr.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RMeshCollision.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RMeshMgr.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RMeshNode.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RMeshNodeData.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RMeshNodeLoadImpl.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RMeshUtil.h">
+      <Filter>SceneGraph\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimation.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationBlendTable.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationDef.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationFileLoadImpl.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationKey.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationManager.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationNode.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationResource.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RSkeleton.h">
+      <Filter>SceneGraph\Actor\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAccumMotionBlurPassRenderer.h">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorPassRenderer.h">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="REdgePassRender.h">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RPixelMotionBlurPassRenderer.h">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectEdgePassRender.h">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RVertexMotionBlurPassRenderer.h">
+      <Filter>SceneGraph\Actor\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothActorNode.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothCollision.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothConstraint.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothEdgeAndTriangleInfo.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothInfo.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothLocalActorNode.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothParameter.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothParticle.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothSimulator.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothType.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothUtility.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RClothWorldActorNode.h">
+      <Filter>SceneGraph\Actor\ClothNew</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorAlignController.h">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorController.h">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorNodeConstraintController.h">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationController.h">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnimationControllerNode.h">
+      <Filter>SceneGraph\Actor\ActorControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="REnvironment.h">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="REnvironmentSet.h">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneSky.h">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="RSkyManager.h">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="RWeatherEffect.h">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="RWeatherEffectSet.h">
+      <Filter>SceneGraph\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="RSkyPassRenderer.h">
+      <Filter>SceneGraph\Environment\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RAlignController.h">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RRotateSettingController.h">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneNodeController.h">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneNodeControllerFactory.h">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RShaderEffectController.h">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSimpleRotationController.h">
+      <Filter>SceneGraph\SceneNodeControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RDirectionalLightSceneNode.h">
+      <Filter>SceneGraph\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RLightingShader.h">
+      <Filter>SceneGraph\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RLightSceneNode.h">
+      <Filter>SceneGraph\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RPointLightSceneNode.h">
+      <Filter>SceneGraph\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RSpotLightSceneNode.h">
+      <Filter>SceneGraph\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RGIProcessor.h">
+      <Filter>SceneGraph\Light\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHBAOProcessor.h">
+      <Filter>SceneGraph\Light\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="RSSAOProcessor.h">
+      <Filter>SceneGraph\Light\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="RDirectionalLightPassRenderer.h">
+      <Filter>SceneGraph\Light\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RPointLightPassRenderer.h">
+      <Filter>SceneGraph\Light\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RSpotLightPassRenderer.h">
+      <Filter>SceneGraph\Light\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneNodeInstance.h">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneNodePolygonCollector_Collision.h">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="RScreenEffectManager.h">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="RTextSceneNode.h">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="RWorldSceneNode.h">
+      <Filter>SceneGraph\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="Horizon.h">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RTerrain.h">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RTerrainPatch.h">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RTerrainPVS.h">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RTerrainQuadTree.h">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RTerrainResource.h">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RTerrainShader.h">
+      <Filter>SceneGraph\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RTerrainPassRenderer.h">
+      <Filter>SceneGraph\Terrain\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RWaterDef.h">
+      <Filter>SceneGraph\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="RWaterSceneNode.h">
+      <Filter>SceneGraph\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="RWaterPassRenderer.h">
+      <Filter>SceneGraph\Water\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RGrassLoader.h">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="RGrassSystem.h">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="RSpeedGrass.h">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="RSpeedGrassGPUInstance.h">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="RSpeedGrassShader.h">
+      <Filter>SceneGraph\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\speedgrass\IdvVectorMath.h">
+      <Filter>SceneGraph\Grass\SpeedGrass</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\speedgrass\SpeedGrassConstants.h">
+      <Filter>SceneGraph\Grass\SpeedGrass</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\speedgrass\SpeedGrassRT.h">
+      <Filter>SceneGraph\Grass\SpeedGrass</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\speedgrass\stl_vector.h">
+      <Filter>SceneGraph\Grass\SpeedGrass</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeDef.h">
+      <Filter>SceneGraph\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeSceneNode.h">
+      <Filter>SceneGraph\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreePassRenderer.h">
+      <Filter>SceneGraph\Tree\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeBillboard.h">
+      <Filter>SceneGraph\Tree\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeMaterial.h">
+      <Filter>SceneGraph\Tree\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeMeshBuffer.h">
+      <Filter>SceneGraph\Tree\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeMeshFormat.h">
+      <Filter>SceneGraph\Tree\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeResource.h">
+      <Filter>SceneGraph\Tree\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeResourceMgr.h">
+      <Filter>SceneGraph\Tree\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RTreeCollision.h">
+      <Filter>SceneGraph\Tree\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="RSceneManager.h">
+      <Filter>SceneGraph\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RCameraArcBallSceneNode.h">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RCameraFPSSceneNode.h">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RCameraSceneNode.h">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RPolarCameraSceneNode.h">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RVariableFrustum.h">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RViewFrustum.h">
+      <Filter>SceneGraph\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RCameraAnimationController.h">
+      <Filter>SceneGraph\Camera\CameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="RCameraSceneNodeController.h">
+      <Filter>SceneGraph\Camera\CameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="RCameraShakeController.h">
+      <Filter>SceneGraph\Camera\CameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="RAdditivePassRenderer.h">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RAlphaPassRenderer.h">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RDebugPassRenderer.h">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RDistortionPassRenderer.h">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RPassRenderer.h">
+      <Filter>SceneGraph\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RBspline.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RCardinal.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="REffectActor.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="REffectBase.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="REffectInstance.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="REffectManager.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="REffectSceneNode.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="REmitter.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="REmitterType.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RGlareDef.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RParticle.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RParticle_Create.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RParticlePool.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RParticleShader.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPCollection.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPType.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RTrail.h">
+      <Filter>SceneGraph\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="REffectPassRenderer.h">
+      <Filter>SceneGraph\Effect\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RStaticMeshDepthRenderStrategy.h">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RStaticMeshGStageRenderStrategy.h">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RStaticMeshMStageRenderStrategy.h">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RStaticMeshRenderStrategy.h">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RStaticMeshResource.h">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RStaticMeshResourceFileLoadImpl.h">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RStaticMeshSceneNode.h">
+      <Filter>SceneGraph\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RStaticMeshPassRenderer.h">
+      <Filter>SceneGraph\StaticMesh\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RDecalCollision.h">
+      <Filter>SceneGraph\Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="RDecalPolygonSceneNode.h">
+      <Filter>SceneGraph\Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="RDecalProjectionSceneNode.h">
+      <Filter>SceneGraph\Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="RDecalPolygonPassRenderer.h">
+      <Filter>SceneGraph\Decal\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RDecalProjectionPassRenderer.h">
+      <Filter>SceneGraph\Decal\PassRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RDeferredRenderingStrategy.h">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RInferredRenderingStrategy.h">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RNullRenderingStrategy.h">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RRenderingCallbackInterface.h">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RRenderingStrategy.h">
+      <Filter>SceneGraph\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectAccumMotionBlur.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectDistortion.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectDistortionParameter.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectDOF.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectEdge.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectFinalScene.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectHDR.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectInterface.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectManager.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectPixelMotionBlur.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RPostEffectScreenMotionBlur.h">
+      <Filter>SceneGraph\Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ROctreeManager.h">
+      <Filter>SceneGraph\SpaceDivision</Filter>
+    </ClInclude>
+    <ClInclude Include="RCullingList.h">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClInclude>
+    <ClInclude Include="RCullingMgr.h">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClInclude>
+    <ClInclude Include="ROccluderList.h">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClInclude>
+    <ClInclude Include="ROcclusionCullingMgr.h">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClInclude>
+    <ClInclude Include="RRenderChain.h">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClInclude>
+    <ClInclude Include="RRenderingList.h">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClInclude>
+    <ClInclude Include="RViewFrustumCullingMgr.h">
+      <Filter>SceneGraph\RCullingList</Filter>
+    </ClInclude>
+    <ClInclude Include="RDepthMapShadowStrategy.h">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="RLiSPSMShadowStrategy.h">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="RProjectionShadow.h">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="RProjectionShadowStrategy.h">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="RPSSMShadowStrategy.h">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="RShadowStrategy.h">
+      <Filter>SceneGraph\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="RDuplicateUpdateCheckContext.h">
+      <Filter>SceneGraph\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="ROccluderContext.h">
+      <Filter>SceneGraph\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="ROccluderSceneNode.h">
+      <Filter>SceneGraph\Occluder</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODContext.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODController.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODMetric.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODMetricInfo.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODNode.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODProcessorBase.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODProcessorDistance.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODProcessorFog.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RLODProcessorProjection.h">
+      <Filter>SceneGraph\LODSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="RD3DApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="RLibTypes.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="MImagePacker.h">
+      <Filter>Application\ToolSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="RToolApplication.h">
+      <Filter>Application\ToolSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="RToolHelper.h">
+      <Filter>Application\ToolSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="RToolUtil.h">
+      <Filter>Application\ToolSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="MFileLoader.h">
+      <Filter>ImageLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SOIL\image_DXT.h">
+      <Filter>ImageLib\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SOIL\SOIL.h">
+      <Filter>ImageLib\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SOIL\stb_image_aug.h">
+      <Filter>ImageLib\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SOIL\stbi_DDS_aug.h">
+      <Filter>ImageLib\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SOIL\stbi_DDS_aug_c.h">
+      <Filter>ImageLib\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="RUnitTestReporter.h">
+      <Filter>UnitTestRunner</Filter>
+    </ClInclude>
+    <ClInclude Include="RUnitTestRunner.h">
+      <Filter>UnitTestRunner</Filter>
+    </ClInclude>
+    <ClInclude Include="RDebuggingInfo.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="RAnalyst.h">
+      <Filter>Analyst</Filter>
+    </ClInclude>
+    <ClInclude Include="RCPUAnalyst.h">
+      <Filter>Analyst</Filter>
+    </ClInclude>
+    <ClInclude Include="RGPUAnalyst.h">
+      <Filter>Analyst</Filter>
+    </ClInclude>
+    <ClInclude Include="RResourceAnalyst.h">
+      <Filter>Analyst</Filter>
+    </ClInclude>
+    <ClInclude Include="RGPUProfiler.h">
+      <Filter>Analyst\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="RProfileInfo.h">
+      <Filter>Analyst\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="RProfiler.h">
+      <Filter>Analyst\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RUSceneXML.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RUDataDesc.h">
+      <Filter>Util\Desc</Filter>
+    </ClInclude>
+    <ClInclude Include="RActorResourceDependencyGraph.h">
+      <Filter>Desc</Filter>
+    </ClInclude>
+    <ClInclude Include="RealSpace3.h" />
+    <ClInclude Include="REngine.h" />
+    <ClInclude Include="RMaterialDecal.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Doc\Grass 정보파일의 바이너리 구조.txt">
+      <Filter>SceneGraph\Grass</Filter>
+    </Text>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
